@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100%;
+            background-image: url('kagiso.jpg');
+            background-size: cover; /* Cover the entire page */
+            background-position: center center; /* Center the image */
+            background-attachment: fixed; /* Keep it fixed when scrolling */
+            background-repeat: no-repeat; /* Prevent image repetition */
+        }
+
+        }
+        form {
+            padding: 20px;
+            border: 1px solid #1599d6;
+            border-radius: 8px;
+            background-color: #2217b894;
+        }
+    </style>
+    <title>Centered Form</title>
+</head>
+<body>
+    <form>
+        <h2>Login Form</h2>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Signup</button>
+    </form>
+</body>
+</html>
